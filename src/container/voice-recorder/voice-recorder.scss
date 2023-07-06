@@ -1,0 +1,102 @@
+@import '../../variable.scss';
+.voice_recorder_wrapper {
+    max-height: 500px;
+    height: calc(100vh - 100px);     
+    width: 80%;
+    margin:auto;
+    margin-top: 100px;
+}
+
+.voice_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .voice_form_title{       
+        display: flex;
+        flex-direction: column;                
+        align-items: center;
+        line-height: 100px;
+        padding-left: 20px;
+        .first_part{
+            font-size: 46px;
+            font-weight: bolder;
+            color: $warning-color;
+        }
+        .second_part{
+            font-size: 28px;
+        }
+    }
+        .txt_input{
+            box-shadow: none;
+            border:none;
+            border-bottom: 1px solid #667280;
+            color:#222;  
+            height: 70px;
+            font-size:20px;
+            line-height: 16px;
+            background: none;
+            width:70%;  
+            &:hover {
+                border: none;
+                box-shadow: none;
+                border-bottom: 1px solid #667280;
+                background: none;
+              }
+              &:focus {
+                border: none;
+                box-shadow: none;
+                border-bottom: 1px solid #667280;
+                background: none;
+              }          
+    }
+}
+
+.btn_row_recorder{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    margin-top: 50px;
+    .btn {
+        background: $warning-color;
+        border: 2px solid $warning-color;
+        width: 160px;
+        height: 60px;
+        border-radius: 0 !important;        
+        text-transform: uppercase;
+        font-size: 15px !important;
+        line-height: 26px !important;
+        height: 60px;
+    }
+    .btn_record{        
+        margin-right: 50px;
+    }
+    
+    .btn_submit{        
+        margin-right: 50px;
+    }      
+
+    .img_recording{
+        height: 30px;
+        width: 30px;
+        padding: 0;
+        margin: auto;
+        display: flex;
+    }
+}
+
+.count_wrapper{
+    font-size: 36px;  
+    margin-top: 20px; 
+    font-weight: bolder;
+    color:$warning-color;
+    width: 100%;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.recorded_view{
+    text-align: center;
+}
+
+

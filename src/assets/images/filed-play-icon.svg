@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>filed-play-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.23488,0.13715 L11.65728,7.34003 C11.87149,7.49009 12,7.73469 12,7.99655 C12,8.25841 11.87148,8.503 11.65728,8.65307 L1.23488,15.855942 C1.107859,15.944478 0.957542,15.994749 0.80196,15.9999977 C0.673437,15.9999977 0.547172,15.969965 0.43292,15.911441 C0.166857,15.774137 0,15.498784 0,15.199413 L0,0.79366 C0,0.49429 0.166855,0.21893 0.43292,0.08163 C0.691479,-0.04442 0.99662,-0.02341 1.23488,0.13715 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="outline" transform="translate(6.000000, 4.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Clip-2" fill="#0D1C31" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

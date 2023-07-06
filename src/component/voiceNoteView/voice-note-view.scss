@@ -1,0 +1,137 @@
+@import './../../variable.scss';
+
+.row__userlist {
+  align-items: center;
+  display: flex;
+  max-height: 400px;
+  background: $dark-black-14;
+  padding: 20px;
+}
+.row.separator-menuhome {
+  background-color: rgba($color: $white-color, $alpha: 0.2);
+  height: 1px;  
+}
+
+.userdetail__col__left {
+  flex: 0 0 46px;
+  display: flex;
+  align-items: center;
+  padding-right: 0;
+  cursor: pointer;
+  max-width: 46px;
+  padding: 10px 0px;
+}
+
+.userdetail__col__right {
+  cursor: pointer;  
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .delete_icon {
+    margin-left: 20px;
+    margin-top: -5px;
+  }
+}
+
+.userprofile__col {
+  position: relative;
+}
+
+.userprofile__col .pic {
+  height: 46px;
+  width: 46px;
+  max-width: 46px;
+  max-height: 46px;
+  border-radius: 50%;
+  background: $dark-black-2c;
+  color: $white-color;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $warning-color;
+}
+
+.user__info__col .username {
+  color: $white-color;
+  font-size: 22px;
+  line-height: 22px;    
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-family: 'dm_sansbold';
+  font-weight: normal;   
+  margin-left: 30px;
+}
+
+
+
+.play__btn__col__right {
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+
+.userlist__main__row {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;  
+  justify-content: center;
+  cursor: pointer;    
+}
+
+.player-transition-enter-active {
+  overflow: hidden;
+  animation-name: bounce-player-down-side;
+  animation-timing-function: ease;
+  animation-duration: 600ms;
+  animation-iteration-count: 1;
+}
+
+.player-transition-exit {
+  overflow: hidden;
+  animation-name: bounce-player-up-side;
+  animation-timing-function: ease;
+  animation-duration: 600ms;
+  animation-iteration-count: 1;
+}
+
+.player-control-view {
+  height: 100px;
+  background: $dark-black-14;
+}
+@keyframes bounce-player-down-side {
+  0% {
+    max-height: 0px;    
+  }
+  100% {    
+    max-height: 100px;
+  }
+}
+
+@keyframes bounce-player-up-side {
+  0% {
+    max-height:100px;    
+  }
+  100% {
+    max-height: 0px;    
+  }
+}
+
+@keyframes fadeunread {
+  0% {
+    opacity: 0 !important;
+  }
+  100% {
+    opacity: 1;
+  }
+}
